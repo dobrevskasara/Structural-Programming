@@ -9,11 +9,11 @@ using namespace std;
 int main(){
     int a, b;
     int sum;
-    cout<<"Vnesi dva celi broevi: "<<endl;
+    cout<<"Enter two numbers: "<<endl;
     cin>>a>>b;
     sum=a+b;
     bool IsEven = sum % 2 == 0;
-    cout<<"Rezultatot za dali brojot e paren e: "<<IsEven;
+    cout<<"Is number even: "<<IsEven;
     return 0;
 }
 
