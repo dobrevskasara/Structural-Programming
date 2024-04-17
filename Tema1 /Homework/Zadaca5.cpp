@@ -6,11 +6,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int base, height, length;
-    cout<<"Enter base, height and lenght: "<<endl;
-    cin>>base>>height>>length;
+    int width, height, length;
+    cout<<"Enter width, height and lenght: "<<endl;
+    cin>>width>>height>>length;
     int Volume;
-    Volume=base*height*length;
+    Volume=width*height*length;
     cout<<"The Volume is: "<<Volume;
     return 0;
 }
