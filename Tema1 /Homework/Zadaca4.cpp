@@ -9,8 +9,8 @@ int main(){
     int base, height, length;
     cout<<"Enter three numbers: "<<endl;
     cin>>base>>height>>length;
-    float Volume;
-    Volume=(float)base*height*length/2;
-    cout<<"The Volume is: "<<Volume;
+    float volume;
+    volume=(float)base*height*length/2;
+    cout<<"The Volume is: "<<volume;
     return 0;
 }
