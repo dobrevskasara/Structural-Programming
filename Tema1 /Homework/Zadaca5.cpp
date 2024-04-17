@@ -9,8 +9,8 @@ int main(){
     int width, height, length;
     cout<<"Enter width, height and lenght: "<<endl;
     cin>>width>>height>>length;
-    int Volume;
-    Volume=width*height*length;
-    cout<<"The Volume is: "<<Volume;
+    int volume;
+    volume=width*height*length;
+    cout<<"The Volume is: "<<volume;
     return 0;
 }
