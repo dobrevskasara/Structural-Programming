@@ -6,11 +6,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a, b;
+    int num1, num2;
     int product;
     cout<<"Enter two numbers: "<<endl;
-    cin>>a>>b;
-    product=a*b;
+    cin>>num1>>num2;
+    product=num1*num2;
     bool IsDivisibleWith7or13 = (product % 7 == 0) || (product % 13 == 0);
     cout<<"Result is: "<<IsDivisibleWith7or13;
     return 0;
