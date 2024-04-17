@@ -7,11 +7,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a, b;
+    int num1, num2;
     int sum;
     cout<<"Enter two numbers: "<<endl;
-    cin>>a>>b;
-    sum=a+b;
+    cin>>num1>>num2;
+    sum=num1+num2;
     bool IsEven = sum % 2 == 0;
     cout<<"Is number even: "<<IsEven;
     return 0;
