@@ -14,7 +14,7 @@ int main(){
     cin>>number1>>number2;
 
     if(number1>0 && number2>0){
-        cout<<"Two numbers are positive!"<<endl;
+        cout<<"Both numbers are positive!"<<endl;
         sum=number1+number2;
         cout<<pow(sum,2);
     }
