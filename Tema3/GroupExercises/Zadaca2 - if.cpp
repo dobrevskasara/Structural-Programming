@@ -12,7 +12,7 @@ int main(){
     string brand;
     cout<<"Enter brand: "<<endl;
     cin>>brand;
-    if(brand=="Renault" || brand=="France" || brand=="Citroen"){
+    if(brand=="Renault" || brand=="Peugeot" || brand=="Citroen"){
         cout<<"France.";
     }
     else if(brand=="Mazda" || brand=="Lexus" || brand=="Toyota" || brand=="Honda"){
