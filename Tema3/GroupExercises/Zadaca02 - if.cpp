@@ -11,7 +11,7 @@ using namespace std;
 int main(){
     string brand;
     cout<<"Enter brand: "<<endl;
-    cin>>brand;
+    getline(cin,brand);
     if(brand=="Renault" || brand=="Peugeot" || brand=="Citroen"){
         cout<<"France.";
     }
