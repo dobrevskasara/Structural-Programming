@@ -11,9 +11,8 @@ int main(){
     cin>>number;
     int newNumber=number;
     while(newNumber!=0){
-        int digits=newNumber%10;
-        cout<<newNumber<<" -> "<<digits<<endl;
-        sum+=digits;
+        cout<<newNumber<<" -> "<<newNumber%10<<endl;
+        sum+=newNumber%10;
         newNumber=newNumber/10;
     }
 
