@@ -5,10 +5,13 @@
 #include <iostream>
 using namespace std;
 int main(){
+    int sum=0;
     for(int i=0;i<100;i++){
         if((i+1)%5==0){
             cout<<"Number "<<(i+1)<<" is divisible with 5."<<endl;
+            sum+=(i+1);
         }
     }
+    cout<<"Sum of numbers is: "<<sum;
     return 0;
 }
