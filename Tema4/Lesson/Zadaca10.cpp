@@ -9,7 +9,7 @@ int main(){
     cin>>n;
     float factoriel=1;
     for(int i=1; i<=n;i++){
-        factoriel=factoriel*(i+1);
+        factoriel=factoriel*i;
     }
     cout<<"Factoriel of "<<n<<" is: "<<factoriel;
     return 0;
