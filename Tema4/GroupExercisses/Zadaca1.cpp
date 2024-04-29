@@ -17,7 +17,7 @@ int main(){
     int fifthDigit=(magicNumber/100)%10;
     int sixthDigit=magicNumber%10;
     int lastDigitsSum=fifthDigit+sixthDigit;
-    if(fifthDigit==0 || secondDigit==0 || lastDigitsSum==0){
+    if(firstDigit==0 || secondDigit==0 || lastDigitsSum==0){
         cout<<"Impossible division with zero!";
     }
     else if(magicNumber%firstDigit==0 && magicNumber%lastDigitsSum!=0 || magicNumber%secondDigit!=0 && magicNumber%lastDigitsSum!=0){
