@@ -8,12 +8,11 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    float result=0;
+    float result=0, sum=0;
     for(int i=1;i<=n;i++){
-        float sum=0;
         sum+=i;
-        result+=sum/ pow(n,2);
     }
+    result+=sum/ pow(n,2);
     cout<<"The result is: "<<result;
     return 0;
 }
