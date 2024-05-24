@@ -28,7 +28,7 @@ int main(){
     cout<<"Array: ";
     printArray(array,n);
     for(int i=0;i<n;i++){
-        if(array[i]%2==0){
+        if(i%2==0){
             evenArray[evenIndex++]=array[i];
         }
         else{
@@ -36,10 +36,10 @@ int main(){
         }
     }
     cout<<endl;
-    cout<<"Array with even elements: ";
+    cout<<"Array with even position: ";
     printArray(evenArray,evenIndex);
     cout<<endl;
-    cout<<"Array with odd elements: ";
+    cout<<"Array with odd position: ";
     printArray(oddArray,oddIndex);
     return 0;
 }
