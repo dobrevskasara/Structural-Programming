@@ -11,7 +11,7 @@
 using namespace std;
 
 int check(char *characters){
-    for(int i=0;i< strlen(characters);i++){
+    for(int i=0;i< strlen(characters)-1;i++){
         if(characters[i]==characters[i+1]){
             return 1;
         }
